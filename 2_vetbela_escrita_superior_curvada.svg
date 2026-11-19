@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="42 14 316 146" width="316" height="146" role="img" aria-label="VetBela">
+  <defs>
+    <path id="topArcOnly" d="M 56,146 A 144,116 0 0,1 344,146" />
+  </defs>
+  <text font-family="'Arial Rounded MT Bold', 'Nunito', 'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="70" letter-spacing="-1">
+    <textPath href="#topArcOnly" xlink:href="#topArcOnly" startOffset="50%" text-anchor="middle">
+      <tspan fill="#F4EDE2">Vet</tspan><tspan fill="#EA7175">Bela</tspan>
+    </textPath>
+  </text>
+</svg>
