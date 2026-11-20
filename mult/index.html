@@ -186,43 +186,58 @@
   <header class="fixed top-4 inset-x-0 z-50 px-4">
     <div class="max-w-6xl mx-auto rounded-full bg-vet-emerald/95 backdrop-blur-xl border border-vet-gold/35 px-4 sm:px-7 py-1.5 shadow-2xl flex items-center justify-between" data-editable-text="true">
       
-      <!-- Logotipo VetBela (Clique volta para Início) -->
-      <a href="#/inicio" onclick="navigateTo('inicio'); return false;" class="flex items-center gap-3 group shrink-0" data-editable-text="true" data-x="0" data-y="0" style="transform: translate(0px, 0px);">
-        <div class="w-16 h-16 sm:w-[72px] sm:h-[72px] shrink-0 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="46 18 308 292" class="w-full h-full drop-shadow" role="img" aria-label="VetBela Clínica Veterinária">
-            <defs>
-              <path id="hdrTopArc" d="M 56,146 A 144,116 0 0,1 344,146"></path>
-              <path id="hdrBottomArc" d="M 76,208 A 128,108 0 0,0 324,208"></path>
-              <clipPath id="hdrHeadClip">
-                <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 L 222,181 C 228,196 244,205 264,206 L 266,222 C 254,226 242,223 234,217 C 236,232 225,244 206,244 C 176,244 134,224 114,204 C 102,192 114,138 134,116 Z"></path>
-              </clipPath>
-            </defs>
-            <text font-family="'Nunito', system-ui, sans-serif" font-weight="900" font-size="70" letter-spacing="-1">
-              <textPath href="#hdrTopArc" startOffset="50%" text-anchor="middle"><tspan fill="#F4EDE2">Vet</tspan><tspan fill="#EA7175">Bela</tspan></textPath>
-            </text>
-            <g transform="translate(200, 174) scale(0.92) translate(-192, -172)">
-              <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 L 222,181 C 228,196 244,205 264,206 L 266,222 C 254,226 242,223 234,217 C 236,232 225,244 206,244 C 176,244 134,224 114,204 C 102,192 114,138 134,116 Z" fill="#F6EFE6"></path>
-              <g clip-path="url(#hdrHeadClip)">
-                <path d="M 95,88 L 196,88 C 216,112 216,148 194,174 C 176,195 162,216 158,248 L 95,248 Z" fill="#C88749"></path>
-              </g>
-              <path d="M 218,176 C 232,183 248,185 266,184 C 272,202 260,218 238,217 C 222,216 212,198 218,176 Z" fill="#14263C"></path>
-              <path d="M 236,192 C 252,190 268,200 276,216 C 282,229 273,242 259,241 C 246,240 236,226 232,208 C 230,199 232,193 236,192 Z" fill="#EE727A" stroke="#14263C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"></path>
-              <path d="M 248,206 C 253,213 257,221 260,228" fill="none" stroke="#14263C" stroke-width="5.5" stroke-linecap="round"></path>
-              <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 C 240,184 227,181 218,175 C 216,192 224,207 238,214" fill="none" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              <path d="M 114,204 C 136,225 176,244 210,244 C 226,244 234,234 230,224 C 227,219 221,218 216,219" fill="none" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              <path d="M 134,116 C 108,116 86,142 82,176 C 78,204 94,222 116,220 C 138,218 150,196 150,166 C 150,142 145,123 134,116 Z" fill="#C88749" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              <ellipse cx="187" cy="144" rx="8.5" ry="11.5" fill="#14263C"></ellipse>
-              <path d="M 271,126 C 288,125 299,134 298,147 C 297,158 285,163 273,159 C 263,156 259,146 262,136 C 264,130 267,127 271,126 Z" fill="#14263C"></path>
-            </g>
-            <text font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="28" fill="#F4EDE2" letter-spacing="0.4">
-              <textPath href="#hdrBottomArc" startOffset="50%" text-anchor="middle">Clínica Veterinária</textPath>
-            </text>
-          </svg>
-        </div>
-        <div class="hidden sm:block">
-          <span class="font-serif text-2xl tracking-wide text-vet-offwhite font-semibold block leading-none" data-editable-text="true">Vet<span class="text-[#EA7175]" data-editable-text="true">Bela</span></span>
-          <span class="text-[9px] uppercase tracking-[0.24em] text-vet-goldLight block mt-0.5 whitespace-nowrap" data-editable-text="true">Dra. Isabela Cremasco</span>
-        </div>
+      <!-- Logotipo padronizado com a versão /one/ -->
+<a href="#/inicio" onclick="navigateTo('inicio'); return false;" class="flex items-center gap-3 group shrink-0" data-editable-text="true">
+<!-- 3 Vetores Separados do Logotipo (Alinhados conforme sua base) -->
+                <div class="relative w-24 h-[88px] sm:w-28 sm:h-[96px] shrink-0 select-none overflow-visible">
+                  <!-- Peça 1: Escrita Superior (VetBela) -->
+                  <div data-editable-logo="true" data-x="0" data-y="-7" data-scale="1" title="Escrita Superior: VetBela" class="absolute inset-x-0 top-0 z-20 flex justify-center transition-transform overflow-visible" style="transform: translate(0px, -7px) scale(1);" data-editable-text="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="30 -48 340 208" overflow="visible" class="w-full h-auto drop-shadow" role="img" aria-label="VetBela">
+                      <defs><path id="hdrTopArcSep" d="M 56,146 A 144,116 0 0,1 344,146"></path></defs>
+                      <text font-family="'Nunito', system-ui, sans-serif" font-weight="900" font-size="70" letter-spacing="-1">
+                        <textPath href="#hdrTopArcSep" startOffset="50%" text-anchor="middle"><tspan fill="#F4EDE2">Vet</tspan><tspan fill="#EA7175">Bela</tspan></textPath>
+                      </text>
+                    </svg>
+                  </div>
+        
+                  <!-- Peça 2: Cachorrinho Central -->
+                  <div data-editable-logo="true" data-x="-1" data-y="12" data-scale="0.60" title="Cachorrinho VetBela" class="absolute inset-x-0 top-0 z-10 flex justify-center transition-transform overflow-visible" style="transform: translate(-1px, 12px) scale(0.6);" data-editable-text="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="74 92 232 162" overflow="visible" class="w-full h-auto drop-shadow-md" role="img" aria-label="Cachorrinho VetBela">
+                      <defs>
+                        <clipPath id="hdrDogClipSep">
+                          <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 L 222,181 C 228,196 244,205 264,206 L 266,222 C 254,226 242,223 234,217 C 236,232 225,244 206,244 C 176,244 134,224 114,204 C 102,192 114,138 134,116 Z"></path>
+                        </clipPath>
+                      </defs>
+                      <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 L 222,181 C 228,196 244,205 264,206 L 266,222 C 254,226 242,223 234,217 C 236,232 225,244 206,244 C 176,244 134,224 114,204 C 102,192 114,138 134,116 Z" fill="#F6EFE6"></path>
+                      <g clip-path="url(#hdrDogClipSep)">
+                        <path d="M 95,88 L 196,88 C 216,112 216,148 194,174 C 176,195 162,216 158,248 L 95,248 Z" fill="#C88749"></path>
+                      </g>
+                      <path d="M 218,176 C 232,183 248,185 266,184 C 272,202 260,218 238,217 C 222,216 212,198 218,176 Z" fill="#14263C"></path>
+                      <path d="M 236,192 C 252,190 268,200 276,216 C 282,229 273,242 259,241 C 246,240 236,226 232,208 C 230,199 232,193 236,192 Z" fill="#EE727A" stroke="#14263C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M 248,206 C 253,213 257,221 260,228" fill="none" stroke="#14263C" stroke-width="5.5" stroke-linecap="round"></path>
+                      <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 C 240,184 227,181 218,175 C 216,192 224,207 238,214" fill="none" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M 114,204 C 136,225 176,244 210,244 C 226,244 234,234 230,224 C 227,219 221,218 216,219" fill="none" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M 134,116 C 108,116 86,142 82,176 C 78,204 94,222 116,220 C 138,218 150,196 150,166 C 150,142 145,123 134,116 Z" fill="#C88749" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <ellipse cx="187" cy="144" rx="8.5" ry="11.5" fill="#14263C"></ellipse>
+                      <path d="M 271,126 C 288,125 299,134 298,147 C 297,158 285,163 273,159 C 263,156 259,146 262,136 C 264,130 267,127 271,126 Z" fill="#14263C"></path>
+                    </svg>
+                  </div>
+        
+                  <!-- Peça 3: Escrita Inferior (Clínica Veterinária) -->
+                  <div data-editable-logo="true" data-x="1" data-y="54" data-scale="0.92" title="Escrita Inferior: Clínica Veterinária" class="absolute inset-x-0 top-0 z-20 flex justify-center transition-transform overflow-visible" style="transform: translate(1px, 54px) scale(0.92);" data-editable-text="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="62 192 276 122" overflow="visible" class="w-full h-auto drop-shadow" role="img" aria-label="Clínica Veterinária">
+                      <defs><path id="hdrBottomArcSep" d="M 76,208 A 128,108 0 0,0 324,208"></path></defs>
+                      <text font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="28" fill="#F4EDE2" letter-spacing="0.4">
+                        <textPath href="#hdrBottomArcSep" startOffset="50%" text-anchor="middle">Clínica Veterinária</textPath>
+                      </text>
+                    </svg>
+                  </div>
+                </div>
+        
+                <div class="hidden sm:block shrink-0" data-editable-text="true">
+                  <span class="font-serif text-2xl tracking-wide text-vet-offwhite font-semibold block leading-none" data-editable-text="true" data-x="2" data-y="0" style="transform: translate(2px, 0px);">Vet<span class="text-[#EA7175]" data-editable-text="true">Bela</span></span>
+                  <span class="text-[9px] uppercase tracking-[0.26em] text-vet-goldLight block mt-0.5 whitespace-nowrap" data-editable-text="true" data-x="2" data-y="0" style="transform: translate(2px, 0px);">Dra. Isabela Cremasco</span>
+                </div>
       </a>
 
       <!-- Navegação Desktop Multipáginas -->
