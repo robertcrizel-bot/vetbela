@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="62 192 276 122" width="276" height="122" role="img" aria-label="Clínica Veterinária">
+  <defs>
+    <path id="bottomArcOnly" d="M 76,208 A 128,108 0 0,0 324,208" />
+  </defs>
+  <text font-family="'Plus Jakarta Sans', 'Nunito', system-ui, sans-serif" font-weight="600" font-size="28" fill="#F4EDE2" letter-spacing="0.4">
+    <textPath href="#bottomArcOnly" xlink:href="#bottomArcOnly" startOffset="50%" text-anchor="middle">
+      Clínica Veterinária
+    </textPath>
+  </text>
+</svg>

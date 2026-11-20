@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 380" width="400" height="380" role="img" aria-label="VetBela Clínica Veterinária">
+  <defs>
+    <!-- Arco Superior para "VetBela" -->
+    <path id="topArc" d="M 62,135 A 145,145 0 0,1 338,135" />
+    <!-- Arco Inferior para "Clínica Veterinária" -->
+    <path id="bottomArc" d="M 78,255 A 142,142 0 0,0 322,255" />
+    <!-- Recorte interno da cabeça para mancha caramelo -->
+    <clipPath id="headClip">
+      <path d="M 155,126 C 182,114 218,118 236,136 C 246,146 254,154 272,155 C 288,156 296,166 295,180 C 294,193 282,202 265,204 L 258,205 C 266,216 264,230 250,235 C 236,240 218,236 205,232 C 185,238 158,234 146,218 C 136,204 138,140 155,126 Z" />
+    </clipPath>
+  </defs>
+
+  <!-- Texto Superior Curvado: VetBela -->
+  <text font-family="'Arial Rounded MT Bold', 'Nunito', 'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="60" letter-spacing="1.5">
+    <textPath href="#topArc" xlink:href="#topArc" startOffset="50%" text-anchor="middle">
+      <tspan fill="#F4EDE2">Vet</tspan><tspan fill="#EA7175">Bela</tspan>
+    </textPath>
+  </text>
+
+  <!-- Ilustração Central do Cachorrinho (Estilo Flat Vetorial) -->
+  <g transform="translate(4, 6)">
+    <!-- Base Branca/Creme do Rosto -->
+    <path d="M 155,126 C 182,114 218,118 236,136 C 246,146 254,154 272,155 C 288,156 296,166 295,180 C 294,193 282,202 265,204 L 258,205 C 266,216 264,230 250,235 C 236,240 218,236 205,232 C 185,238 158,234 146,218 C 136,204 138,140 155,126 Z"
+          fill="#F6EFE6" />
+
+    <!-- Mancha Caramelo no Lado Esquerdo do Rosto -->
+    <g clip-path="url(#headClip)">
+      <path d="M 130,110 L 204,110 C 216,132 216,164 202,188 C 192,205 186,225 186,245 L 130,245 Z"
+            fill="#C88749" />
+    </g>
+
+    <!-- Contorno Principal da Cabeça e Focinho -->
+    <path d="M 155,126 C 182,114 218,118 236,136 C 246,146 254,154 272,155 C 288,156 296,166 295,180 C 294,193 282,202 265,204 C 248,206 232,202 222,194"
+          fill="none" stroke="#14263C" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Boca Aberta Sorridente (Fundo Azul Marinho) -->
+    <path d="M 218,196 C 232,204 248,206 262,204 C 266,222 252,238 232,237 C 216,236 208,222 214,205 Z"
+          fill="#14263C" stroke="#14263C" stroke-width="4" stroke-linejoin="round" />
+
+    <!-- Língua Rosa -->
+    <path d="M 234,213 C 245,212 256,220 264,234 C 270,244 263,256 251,255 C 240,254 232,242 228,226 C 226,219 229,214 234,213 Z"
+          fill="#EE727A" stroke="#14263C" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Linha Central da Língua -->
+    <path d="M 243,225 C 247,231 251,238 253,244"
+          fill="none" stroke="#14263C" stroke-width="4.5" stroke-linecap="round" />
+
+    <!-- Contorno do Queixo / Base Inferior da Cabeça -->
+    <path d="M 152,223 C 168,236 192,238 214,231"
+          fill="none" stroke="#14263C" stroke-width="9.5" stroke-linecap="round" />
+
+    <!-- Orelha Caída (Caramelo com Contorno Azul Marinho) -->
+    <path d="M 154,127 C 132,126 112,148 106,182 C 101,210 112,232 132,232 C 151,232 162,212 164,184 C 166,158 164,136 154,127 Z"
+          fill="#C88749" stroke="#14263C" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Olho -->
+    <ellipse cx="192" cy="161" rx="7" ry="10.5" fill="#14263C" />
+
+    <!-- Nariz -->
+    <path d="M 274,156 C 287,156 295,163 294,173 C 293,182 283,186 274,183 C 266,180 263,172 266,164 C 268,159 271,156 274,156 Z"
+          fill="#14263C" />
+  </g>
+
+  <!-- Texto Inferior Curvado: Clínica Veterinária -->
+  <text font-family="'Plus Jakarta Sans', 'Nunito', system-ui, sans-serif" font-weight="600" font-size="25" fill="#F4EDE2" letter-spacing="1.2">
+    <textPath href="#bottomArc" xlink:href="#bottomArc" startOffset="50%" text-anchor="middle">
+      Clínica Veterinária
+    </textPath>
+  </text>
+</svg>

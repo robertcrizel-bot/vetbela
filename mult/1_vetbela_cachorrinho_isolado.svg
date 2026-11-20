@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="74 92 232 162" width="232" height="162" role="img" aria-label="Cachorrinho VetBela">
+  <defs>
+    <clipPath id="dogHeadClip">
+      <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 L 222,181 C 228,196 244,205 264,206 L 266,222 C 254,226 242,223 234,217 C 236,232 225,244 206,244 C 176,244 134,224 114,204 C 102,192 114,138 134,116 Z" />
+    </clipPath>
+  </defs>
+  <!-- Base Creme do Rosto -->
+  <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 L 222,181 C 228,196 244,205 264,206 L 266,222 C 254,226 242,223 234,217 C 236,232 225,244 206,244 C 176,244 134,224 114,204 C 102,192 114,138 134,116 Z" fill="#F6EFE6" />
+  <!-- Mancha Caramelo Curva -->
+  <g clip-path="url(#dogHeadClip)">
+    <path d="M 95,88 L 196,88 C 216,112 216,148 194,174 C 176,195 162,216 158,248 L 95,248 Z" fill="#C88749" />
+  </g>
+  <!-- Boca Aberta -->
+  <path d="M 218,176 C 232,183 248,185 266,184 C 272,202 260,218 238,217 C 222,216 212,198 218,176 Z" fill="#14263C" />
+  <!-- Língua Rosa Inclinada -->
+  <path d="M 236,192 C 252,190 268,200 276,216 C 282,229 273,242 259,241 C 246,240 236,226 232,208 C 230,199 232,193 236,192 Z" fill="#EE727A" stroke="#14263C" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 248,206 C 253,213 257,221 260,228" fill="none" stroke="#14263C" stroke-width="5.5" stroke-linecap="round" />
+  <!-- Contorno Principal -->
+  <path d="M 134,116 C 154,94 196,94 222,112 C 234,120 242,126 266,125 C 288,124 300,136 298,154 C 296,172 280,183 256,184 C 240,184 227,181 218,175 C 216,192 224,207 238,214" fill="none" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Contorno Inferior do Queixo -->
+  <path d="M 114,204 C 136,225 176,244 210,244 C 226,244 234,234 230,224 C 227,219 221,218 216,219" fill="none" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Orelha Caída -->
+  <path d="M 134,116 C 108,116 86,142 82,176 C 78,204 94,222 116,220 C 138,218 150,196 150,166 C 150,142 145,123 134,116 Z" fill="#C88749" stroke="#14263C" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Olho Ovalado -->
+  <ellipse cx="187" cy="144" rx="8.5" ry="11.5" fill="#14263C" />
+  <!-- Nariz Largo -->
+  <path d="M 271,126 C 288,125 299,134 298,147 C 297,158 285,163 273,159 C 263,156 259,146 262,136 C 264,130 267,127 271,126 Z" fill="#14263C" />
+</svg>
